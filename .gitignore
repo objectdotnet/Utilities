@@ -1,0 +1,13 @@
+bin/
+obj/
+Object.Net.Utilities/obj/
+Object.Net.Utilities/bin/
+*.suo
+*.dll
+*.user
+*.vsdoc
+*.DS_Store
+
+/Object.Net.Utilities/DateTime/.DS_Store
+
+/Object.Net.Utilities/Object/.DS_Store
