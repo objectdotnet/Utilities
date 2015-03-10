@@ -11,6 +11,7 @@ using System;
 using System.ComponentModel;
 using System.Reflection;
 using System.Web.UI;
+using Object.Net;
 
 namespace Object.Net.Utilities
 {
@@ -49,7 +50,7 @@ namespace Object.Net.Utilities
         /// <param name="obj"></param>
         /// <param name="type"></param>
         /// <returns></returns>
-        public static bool IsTypeOf(Object obj, Type type)
+        public static bool IsTypeOf(object obj, Type type)
         {
             return IsTypeOf(obj, type.FullName, false);
         }
@@ -61,7 +62,7 @@ namespace Object.Net.Utilities
         /// <param name="type"></param>
         /// <param name="shallow"></param>
         /// <returns></returns>
-        public static bool IsTypeOf(Object obj, Type type, bool shallow)
+        public static bool IsTypeOf(object obj, Type type, bool shallow)
         {
             return IsTypeOf(obj, type.FullName, shallow);
         }
@@ -72,7 +73,7 @@ namespace Object.Net.Utilities
         /// <param name="obj"></param>
         /// <param name="typeFullName"></param>
         /// <returns></returns>
-        public static bool IsTypeOf(Object obj, string typeFullName)
+        public static bool IsTypeOf(object obj, string typeFullName)
         {
             return IsTypeOf(obj, typeFullName, false);
         }
@@ -84,7 +85,7 @@ namespace Object.Net.Utilities
         /// <param name="typeFullName"></param>
         /// <param name="shallow"></param>
         /// <returns></returns>
-        public static bool IsTypeOf(Object obj, string typeFullName, bool shallow)
+        public static bool IsTypeOf(object obj, string typeFullName, bool shallow)
         {
             if (obj != null)
             {

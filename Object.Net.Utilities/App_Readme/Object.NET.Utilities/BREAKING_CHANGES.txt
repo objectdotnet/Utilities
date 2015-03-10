@@ -2,13 +2,14 @@
 *                      2.5.0 BREAKING CHANGES                            *
 **************************************************************************
 
-Release Date     : 2014-10-20
+Release Date     : 2015-03-10
 Current Version  : 2.5.0
 Previous Version : 2.4.0
 
 	NONE
 
-	If you catch any, please report in the forums: http://forums.ext.net.
+	If you catch any, please report in GitHub Issues
+	https://github.com/objectdotnet/Utilities/issues
 
 
 **************************************************************************
@@ -23,7 +24,6 @@ Previous Version : 2.3.0
    It checks if a seed is an INamingContainer instance or not. If it is, it starts searching from that seed, otherwise - from seed.NamingContainer. 
    So, now it has the same logic as the native ASP.NET FindControl method, as well as the Object.Net.Utilities's FindControl one.
 
-   If you use the FindControls<T>() method and a seed is not an INamingContainer, you might need to use the FindChildControls<T>() method instead.
-
+	If you catch any, please report in GitHub Issues
+	https://github.com/objectdotnet/Utilities/issues
 	
-If you catch any breaking changes more, please report in the forums: http://forums.ext.net.

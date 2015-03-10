@@ -1,12 +1,12 @@
 ﻿Project      : Object.NET.Utilties
 Version      : 2.5.0
-Last Updated : 2014-10-20
+Last Updated : 2015-03-10
 
 --------------------------------------------------------------------------
 DESCRIPTION
 --------------------------------------------------------------------------
 
-A .NET Utility Class Library for Object.NET (http://object.net/)
+A .NET Utility Class Library built by Object.NET (http://object.net/)
 
 Install using NuGet (http://nuget.org/packages/Object.NET.Utilities).
 
@@ -16,6 +16,12 @@ Install using NuGet (http://nuget.org/packages/Object.NET.Utilities).
 --------------------------------------------------------------------------
 RELEASE HISTORY
 --------------------------------------------------------------------------
+
+2015-03-10
+
+- Release v2.5.0
+- Moved project to https://github.com/objectdotnet/Utilities
+
 
 2014-10-20
 
